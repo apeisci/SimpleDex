@@ -1,0 +1,103 @@
+{
+	"abi": [
+		{
+			"constant": true,
+			"inputs": [],
+			"name": "getBalance",
+			"outputs": [
+				{
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "addLiquidity",
+			"outputs": [],
+			"payable": true,
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "amount",
+					"type": "uint256"
+				}
+			],
+			"name": "withdrawLiquidity",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "amountA",
+					"type": "uint256"
+				}
+			],
+			"name": "exchangeTokensAforB",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": false,
+			"inputs": [
+				{
+					"name": "amountB",
+					"type": "uint256"
+				}
+			],
+			"name": "ExchangeTokensBforA",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [],
+			"name": "getThePrice",
+			"outputs": [
+				{
+					"name": "price",
+					"type": "uint256"
+				}
+			],
+			"payable": false,
+			"stateMutability": "view",
+			"type": "function"
+		}
+	],
+	"networks": {
+		"3": {
+			"address": "0x4815A8Ba613a3eB21A920739dE4cA7C439c7e1b1"
+		}
+  "networks": {
+    "3": {
+			"address": "0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8"
+		}
+  }
+  "networks": {
+    "3": {
+			"address": "0xa131AD247055FD2e2aA8b156A11bdEc81b9eAD95"
+		}
+	}
+}
+}
